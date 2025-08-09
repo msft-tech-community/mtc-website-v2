@@ -1,0 +1,17 @@
+/* src/pages/EventRedirect.css */
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    margin: 0 auto 2rem;
+    width: 40px;
+    height: 40px;
+    border: 5px solid #3b82f6;
+    border-top: 5px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
