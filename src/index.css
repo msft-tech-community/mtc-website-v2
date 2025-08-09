@@ -1,0 +1,13 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #213547;
+    background-color: #f3f3f3;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #e6f7ff 0%, #f3f3f3 100%);
+    color: #213547;
+}
