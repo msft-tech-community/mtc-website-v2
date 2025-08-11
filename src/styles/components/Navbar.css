@@ -1,0 +1,35 @@
+/* Navbar component styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #333;
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #646cff;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(100, 108, 255, 0.1);
+}
